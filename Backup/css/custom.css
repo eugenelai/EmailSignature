@@ -1,0 +1,140 @@
+
+
+#formdiv {
+    border-radius: 2px;
+    background-color: #FFF;
+    padding: 30px;
+    -webkit-box-shadow: 0px 20px 30px -10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 20px 30px -10px rgba(0,0,0,0.2);
+    box-shadow: 0px 20px 30px -10px rgba(0,0,0,0.2);
+}
+
+/* Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  background: #a00d27;
+  background: -webkit-linear-gradient(to right bottom, #a00d27, #B92C37);
+  background: linear-gradient(to right bottom, #a00d27, #B92C37);
+
+}
+
+img{
+  vertical-align: middle;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+
+h1{
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight:bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.title {
+  vertical-align: middle;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+}
+
+ol{
+  margin-left:20px;
+  color: #000;
+}
+
+.modal-body {
+    position: relative;
+    padding: 50px 50px 20px 50px;
+}
+
+.container {
+  width: 500px;
+  margin: 25px auto;
+}
+
+form {
+  padding: 20px;
+  /* background: #2c3e50; */
+  color: #000;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  border-radius: 1px;
+}
+
+form label,
+form input,
+form select,
+form button {
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+  -moz-border-radius: 2px;
+  -webkit-border-radius:2px;
+}
+form input {
+  height: 36px;
+  background: #fff;
+  color: #000;
+  padding: 0 6px;
+  border: 1px solid;
+  border-color: #C9CACA;
+
+}
+form button {
+  height: 36px;
+  background: #e67e22;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+form .error {
+  color: #ff0000;
+}
+
+.selector{
+  color:#000;
+  margin-bottom: 5px;
+  height:36px;
+}
+.confirmation{
+  background:#C80421;
+  height:48px;
+  color:#FFF;
+  text-transform: uppercase;
+  letter-spacing:0.2em;
+  -webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.15);
+
+}
+
+.btnclose {
+
+    background:#C80421;
+    height:48px;
+    color:#FFF;
+    text-transform: uppercase;
+    letter-spacing:0.2em;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.15);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.toggleHowTo{
+  color: #000;
+  float: right;
+  padding-right: 22px;
+}
