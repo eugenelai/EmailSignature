@@ -18,7 +18,6 @@
 
 <!-- Name, title, position end-->
 <!-- Address, contact start-->
-				<table style="border-spacing: 0"  cellpadding='0' cellspacing='0'>
 				<?php if ($_POST["brand"] != "scm")
 					{
 						echo '
@@ -29,7 +28,7 @@
 					else
 					{
 							echo '	<span style="font-family:Arial, Helvetica, sans-serif; font-size: 8pt; line-height: 11pt; color:#888888; text-decoration: none !important;">Shiseido Hong Kong Limited</span><br/>
-											<span style="font-family:Arial, Helvetica, sans-serif; font-size: 8pt; line-height: 11pt; color:#888888; text-decoration: none !important;">20-22/F, Tai Hing Cotton Mill Factory Building,</span><br/>
+											<span style="font-family:Arial, Helvetica, sans-serif; font-size: 8pt; line-height: 11pt; color:#888888; text-decoration: none !important;">20-22/F, Tai Hing Industrial Building,,</span><br/>
 											<span style="font-family:Arial, Helvetica, sans-serif; font-size: 8pt; line-height: 11pt; color:#888888; text-decoration: none !important;">3 Tsing Yeung Circuit,</span><br/>
 											<span style="font-family:Arial, Helvetica, sans-serif; font-size: 8pt; line-height: 11pt; color:#888888; text-decoration: none !important;">Tuen Mun, New Territories, Hong Kong</span><br/>';
 					}
@@ -215,5 +214,7 @@
 				}
 				?>
 <!--- Logos and social media end----->
+		</td></tr>
+		</table>
 </td></tr>
 </table>

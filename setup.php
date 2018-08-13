@@ -228,9 +228,9 @@ $companyname = "Cosmetics & Personal Care Division";
 	$companyname = "Finance Department";
 	$logo = "shiseidogroup";
 }
-	elseif ($_POST["brand"] == "bs")
+	elseif ($_POST["brand"] == "dss")
 {
-	$companyname = "Brand Strategy";
+	$companyname = "Digital Shared Services";
 	$logo = "shiseidogroup";
 }
 	elseif ($_POST["brand"] == "cct")

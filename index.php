@@ -1,6 +1,6 @@
 <html>
   <head>
-    <?php $prefill = true;?>
+    <?php $prefill = false;?>
     <!-- CSS -->
     <title>Shiseido - Email Signature Form</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -27,9 +27,9 @@
           <select class="selector" name="brand" required>
             <option value="" disabled selected>Select one</option>
             <option value="" disabled>------------BP's------------</option>
-            <option name="brand" value="bs">Brand Strategy</option>
             <option name="brand" value="cct">Corporate Communications</option>
             <option name="brand" value="cp">Commercial & Planning</option>
+            <option name="brand" value="dss">Digital Shared Services</option>
             <option name="brand" value="finance">Finance and Accounts</option>
             <option name="brand" value="hr">Human Resources</option>
             <option name="brand" value="itt">Information & Technology Transformation</option>
